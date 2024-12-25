@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content:  space-between;
+  height: 63px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+}
+
+.navbar {
+  display: flex;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: #bd5940;
+}
+
+
+.header {
+  height: 85vh !important;
+  background: url(29.jpeg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-about {
+  height: 80vh !important;
+  background: url(fuji_3.jpg) no-repeat center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 70px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  color: #000000;
+  
+  padding-top: 5px;
+}
+.title_2 {
+  margin-top: -100px;
+  font-size: 35px;
+  font-weight: 300px;
+  padding-top: 13px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 59px;
+}
+.title_3 {
+  margin-top: -100px;
+  font-size: 35px;
+  font-weight: 300px;
+  padding-top: 150px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 59px;
+}
+
+.final {
+  margin-bottom: 10;
+  font-size: 30px;
+  color: #d64b0ac2;
+  padding: 50px 400px;
+  padding-left: 500px;  
+  text-align: center;
+
+}
+
+p {
+  margin-bottom: 40;
+  font-size: 18px;
+  color: #000000;
+  padding: 0 100px;
+
+}
+
+.jap {
+  margin-top: 50;
+  font-size: 52px;
+  color: #ffffff;
+  padding: 0 100px;
+  font-family: 'Copperplate';
+  padding-top: 400px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 50px;
+  border: 2px solid #9c27b0;
+  color: #ffffff;
+  text-decoration: none;
+  background: #9c27b0;
+}
+.ext {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 50px;
+  border: 2px solid #ffffff;
+  color: #000000;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.btn:hover {
+  background: none;
+
+}
+.ext:hover {
+  background: none;
+
+}
+
+.btn-home {
+  display: flex;
+}
+.btn-home a {
+  margin: 0 10px;
+}
+
+.extension-home {
+  display: flex;
+}
+.extension-home a {
+  margin: 0 10px;
+}
+
+.content {
+  height: 52vh ;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.sau {
+  padding: 150px;
+  padding-left: -100px;
+  padding-right: 100px;
+  padding-bottom: -150px;
+  background: #ffffff;
+}
+.jau {
+  padding: 150px;
+  padding-left: -100px;
+  padding-right: 100px;
+  padding-bottom: -150px;
+  background: url(cherry.jpg) no-repeat center;
+  background-size: cover;
+}
+.lau {
+  padding: 150px;
+  padding-left: -100px;
+  padding-right: 100px;
+  padding-bottom: -150px;
+  background: #d7ffe4;
+}
+
+.box-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 18rem;
+  background: #020202;
+  text-align: left, justify;
+  border-radius: 1rem;
+  box-shadow: 0 .3 5rem rgba(95, 88, 88, 0.5);
+  margin: 1rem;
+}
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: rem;
+  text-align: left;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #9c27b0;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.box-container .box h3 {
+  font-family: 'cursive';
+  font-size: 20px;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.box-container .box p {
+  padding: 0 15px;
+  font-size: 16;
+}
+
+.about {
+  background: #171717;
+}
+
+.price {
+  background: url(hanabi.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.contact {
+  padding-top: 20px;
+  background: #171717;
+  padding-bottom: 0;
+}
+
+.text_1 {
+  margin-bottom: 20px;
+  font-size: 10px;
+  font-weight: 60px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media (max-width: 768px){
+  .title {
+      margin-bottom: 0;
+      font-size: 40px;
+  }
+  .sau {
+      height: 120vh;
+  }
+  .navbar {
+      display: none;
+  }
+}
+.no {
+  font-size: 18px;
+  font-weight: 600;
+  color: #020202;
+  text-align: right;
+}
+
+
+
+
+
+
+.box_1 {
+  flex: 0 0 599px; /* Fixed width to match the slideshow container */
+  height: 400px; /* Fixed height to match the slideshow container */
+  padding: 0; /* Remove padding to align the size exactly */
+  display: flex; /* Optional: Center align content inside */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border: 1px solid #ddd; /* Optional: border for visual separation */
+  border-radius: 8px; /* Matches slideshow container's rounded corners */
+  background-color: #fff; /* Optional: background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+  object-position: right;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 599px; /* Fixed width for the container */
+  height: 400px; /* Fixed height for the container */
+  margin: auto;
+  overflow: hidden; /* Ensures images don’t overflow */
+  border-radius: 8px; /* Optional: rounded corners */
+  background-color: #f0f0f0; /* Optional: background color for better appearance */
+  object-position: right;
+  cursor: pointer;
+}
+
+.slide img {
+  width: 599px; /* Match the container width */
+  height: 400px; /* Match the container height */
+  object-fit: cover; /* Ensures images scale correctly without distortion */
+  border-radius: 8px; /* Optional: matches the container's rounded corners */
+  object-position: right;
+}
+
+.slide {
+  display: none;
+}
+.slide:first-child {
+  display: block; /* Show the first slide initially */
+}
+
